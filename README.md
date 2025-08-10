@@ -1,10 +1,16 @@
 # Minimal API
 
-> Uma API simples construída com .NET 6 para fins de aprendizado e demonstração.
+> Uma API simples construída com .NET 9 para fins de aprendizado e demonstração.
+
+## 📋 Sobre o Projeto
+
+Esta API trata do cadastro de **Administradores** e **Editores**, com controle de acesso baseado em permissões.  
+- **Administradores** têm acesso a áreas restritas que **Editores** não possuem.  
+- O acesso é gerenciado via autenticação por **tokens JWT**.  
 
 ## 🚀 Tecnologias
 
-- **.NET 6**: Framework utilizado para construir a API.
+- **.NET 9**: Framework utilizado para construir a API.
 - **C#**: Linguagem de programação principal.
 - **xUnit**: Framework de testes utilizado para garantir a qualidade do código.
 
